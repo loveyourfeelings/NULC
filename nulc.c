@@ -1,7 +1,7 @@
 // LUN, 30 NOV 3:31, 2020 - ABEL ROMERO PÉREZ.
 /* NOT UNIQUE LOGICAL COMPARATOR */
-int nulc (int n, int d) {
-	int ni = 0, nc = 0, di = 0, dc = 0, ret = 0;
+unsigned int nulc (unsigned int n, unsigned int d) {
+	unsigned int ni = 0, nc = 0, di = 0, dc = 0, ret = 0;
 	for (ni = 0; ni <= (2 * d); ++ni) {
 		nc += n;
 	}
@@ -11,6 +11,6 @@ int nulc (int n, int d) {
 	ret = dc == nc;
 	return ret;
 }
-// ; END OF COIDE! TY VM.
+// ; END OF CODE! TY VM.
 // ; BEST REGARDS.
 // ; I <3 U.
